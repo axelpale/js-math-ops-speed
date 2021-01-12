@@ -72,5 +72,5 @@ for (let i = 0; i < 10000; i += 1) {
 Object.keys(operations).forEach(opname => {
   const iter = stats[opname].iterations
   const periter = stats[opname].duration / iter
-  console.log(opname.padEnd(6, ' ') + ' ' + periter.toFixed(2)  + ' ms')
+  console.log(opname.padEnd(6, ' ') + ' ' + periter.toFixed(2) + ' ms')
 })
