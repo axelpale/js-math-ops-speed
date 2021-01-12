@@ -1,0 +1,30 @@
+{
+  "name": "js-math-ops-speed",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Benchmark math operations in Node",
+  "keywords": [
+    "benchmark",
+    "node"
+  ],
+  "homepage": "https://github.com/axelpale/js-math-ops-speed",
+  "main": "index.js",
+  "author": {
+    "name": "Akseli Palen",
+    "email": "akseli.palen@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/axelpale/js-math-ops-speed.git"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "*"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "start:examples_server": "python2.7 -m SimpleHTTPServer 8000",
+    "test": "standard '*.js'"
+  }
+}
