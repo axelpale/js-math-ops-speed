@@ -1,5 +1,7 @@
 # js-math-ops-speed
 
+![](benchmark-node-js-banner-image.jpg)
+
 Benchmark for basic JavaScript math operations. Runs operations in a randomised order so that each operation is ran around 500 times for an array of 10000 random numbers. See [Benchmark of Elementary Mathematical Operations in Node.js](https://www.akselipalen.com/2021/01/13/benchmark-of-elementary-mathematical-operations-in-node-js/) for details and comparison with other similar benchmarks.
 
 Run:
